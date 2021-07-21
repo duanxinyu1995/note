@@ -6,11 +6,13 @@ git config --global user.email "邮箱"
 
 git remote add origin 库地址.git 
 
-git remote rm origin 
+git remote rm origin   解绑远程库
 
-git push -u origin master
+git push -u origin master   
 
 理论基础：Git--将每个版本文件独立保存
+
+​																	<checkout<		
 
 ​					  三棵树：工作区域（init）				暂存区域					Git仓库
 
