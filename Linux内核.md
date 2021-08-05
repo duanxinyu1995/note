@@ -22,10 +22,10 @@ gcc [选项] 源文件 [选项] 目标文件
 <include/linux/types.h>
 struct list_head{
     struct list_head *next, *prev;
-}
+};
 list_add()//添加节点至表头；
 list_add_tail()//添加节点至表尾；
 ```
 
-库文件：动态链接库（.so）优先，静态链接库（.a）
+库文件：动态链接库（.so）优先，运行时才链接库文件，静态链接库（.a），编译时就链接库文件，每个程序中都由一份库文件。
 
