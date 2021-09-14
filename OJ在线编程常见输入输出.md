@@ -87,6 +87,7 @@ C：
 int main(){
     int n, num, sum=0;
     while(scanf("%d", &n)!=EOF){
+        sum=0;
         if(n==0)
             break;
         for(int i=0;i<n;i++)
